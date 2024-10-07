@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @Saiprakashkulkarni
+- 👋 Hi, I’m @SaiprakashEkulkarni
 - 👀 I’m interested in python programming
 - 🌱 I’m currently learning AIML and python
 
