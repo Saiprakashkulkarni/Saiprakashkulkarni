@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wellcome to PrakStore</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>PrakStore</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#">Cart (<span id="cart-count">0</span>)</a>
+            <a href="#">Account</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Our Products</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="placeholder-image.jpg" alt="Product Name 1">
+                <h3>Product Title 1</h3>
+                <p class="price">$19.99</p>
+                <p>Short description of the product. Highlighting key features.</p>
+                <button class="add-to-cart-btn" data-product-id="1" data-product-name="Product Title 1" data-product-price="19.99">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="placeholder-image-2.jpg" alt="Product Name 2">
+                <h3>Product Title 2</h3>
+                <p class="price">$29.99</p>
+                <p>Another great product with amazing qualities and benefits.</p>
+                <button class="add-to-cart-btn" data-product-id="2" data-product-name="Product Title 2" data-product-price="29.99">Add to Cart</button>
+            </div>
+            </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My Awesome Store. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
